@@ -428,7 +428,7 @@ Your task is to analyze a user's natural language query and generate up to five 
     ("human", "User query: {input}")
 ])
 
-model_internal_search = ChatGroq(groq_api_key=groq_api_key, model_name="llama3-70b-8192")
+model_internal_search = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
 internal_search_planner_chain_enhanced = prompt_internal_search_planner_enhanced | model_internal_search
 
 print("\n--- Enhanced Planner Agent (Ready) ---")
