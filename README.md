@@ -33,8 +33,7 @@ You will also need API keys for the following services:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
-    cd <your-project-directory>
+    git clone https://github.com/23shivay/advanced-context-aware-rag-system
     ```
 
 2.  **Create a virtual environment (recommended):**
